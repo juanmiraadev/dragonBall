@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="140" viewBox="0 0 560 140" role="img" aria-label="No hay persistencia real: no hay servidor, base de datos ni tokens. La sesión es un simple indicador en sessionStorage, que desaparece al cerrar la pestaña.">
+  <rect x="0.5" y="0.5" width="559" height="139" rx="6" fill="#FFF8C5" stroke="#D4A72C"/>
+  <rect x="0.5" y="0.5" width="6" height="139" rx="3" fill="#BF8700"/>
+
+  <path d="M34 18 L46 39 H22 Z" fill="#BF8700" stroke="#BF8700" stroke-width="2" stroke-linejoin="round"/>
+  <text x="34" y="37" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="bold" fill="#FFFFFF">!</text>
+  <text x="54" y="35" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" fill="#9A6700">No hay persistencia real</text>
+
+  <g font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" fill="#1F2328">
+    <text x="24" y="62">No hay servidor, base de datos ni tokens. La sesión es un simple</text>
+    <text x="24" y="82">indicador en <tspan font-family="Consolas, 'Courier New', monospace">sessionStorage</tspan>, que desaparece al cerrar la pestaña. El</text>
+    <text x="24" y="102">objetivo era practicar el <tspan font-weight="bold">flujo de validación y el control de acceso</tspan></text>
+    <text x="24" y="122">en el cliente, no construir un sistema de autenticación seguro.</text>
+  </g>
+</svg>
