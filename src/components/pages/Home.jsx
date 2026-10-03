@@ -15,7 +15,7 @@ export default function Home({handleLogin}) {
                     <h3>Anime at your home</h3>
                 </div>
                 <Button onClick={() => setOpenLogin(true)} text={"Get started"}/>
-                <img className='absolute w-75 top-20 right-90' src="/assets/Goku.png" alt="goku img" />
+                <img className='absolute w-75 top-20 right-90' src={`${import.meta.env.BASE_URL}assets/Goku.png`} alt="goku img" />
             </div>
             {openLogin && (
                 <Login handleLogin={handleLogin} onClose={() => setOpenLogin(false)}/>
