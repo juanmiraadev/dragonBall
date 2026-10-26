@@ -54,7 +54,7 @@ export default function CharacterDetails() {
 
   return (
     <section
-      className={`w-full flex flex-col gap-4 px-10 lg:px-32 py-8 lg:py-12 ${expanded ? "" : "h-screen overflow-hidden"
+      className={`w-full flex flex-col gap-4 px-10 lg:px-32 py-8 lg:py-12 ${expanded ? "" : "h-dvh overflow-hidden"
         }`}
     >
       <Hero />
@@ -67,7 +67,7 @@ export default function CharacterDetails() {
             </div>
           </div>
         </div>
-        <div className="w-full max-w-80 lg:max-w-none mx-auto lg:mx-0 lg:w-[50%] flex flex-col gap-4 font-anton text-DragoGray min-h-52 flex-1 overflow-hidden lg:flex-none">
+        <div className="w-full max-w-80 lg:max-w-none mx-auto lg:mx-0 lg:w-[50%] flex flex-col gap-4 font-anton text-DragoGray min-h-0 lg:min-h-52 flex-1 overflow-hidden lg:flex-none">
           <h3 className="text-4xl font-bold shrink-0">{character.name}</h3>
           <p
             className={`text-xl min-h-0 overflow-hidden ${expanded ? "" : "line-clamp-3 sm:line-clamp-5 lg:line-clamp-8"
