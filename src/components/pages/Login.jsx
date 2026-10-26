@@ -46,8 +46,8 @@ export default function Login({handleLogin, onClose}) {
     }
 
     return (
-        <article onClick={onClose} className='absolute size-full bg-DragoGray/55 flex justify-center items-center'>
-            <div onClick={(e) => e.stopPropagation()} className='relative w-100 h-100 px-8 py-12 bg-DragoWhite rounded-2xl flex flex-col justify-between items-center'>
+        <article onClick={onClose} className='absolute z-50 size-full bg-DragoGray/55 flex justify-center items-center'>
+            <div onClick={(e) => e.stopPropagation()} className='relative w-100 max-w-[calc(100%-2rem)] h-100 px-8 py-12 bg-DragoWhite rounded-2xl flex flex-col justify-between items-center'>
                 <CloseButton onClick={onClose} />
                 <div className='w-full flex flex-col gap-2'>
                     <Input label={"Username"} type={"text"} placeholder={"Username"} value={userName} onChange={(e) => setUserName(e.target.value)} error={errorUserName}/>

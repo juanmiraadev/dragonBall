@@ -37,7 +37,7 @@ export default function CharactersDashboard() {
   }
 
   return (
-    <section className="w-full h-full">
+    <section className="w-full h-full py-8 lg:py-12">
       <Hero />
       <div className="w-fit mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-10 gap-y-6">
         {characters.slice(0, 6).map(charac => (

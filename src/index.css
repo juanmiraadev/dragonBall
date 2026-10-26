@@ -7,10 +7,17 @@
     --color-DragoGray: #333333;
     --color-DragoAccentRed: #FF4655;
     --color-DragoOrange: #E48601;
+    --color-DragoBlue: #28426F;
+
+    --breakpoint-home: 1466px;
 }
 
 @import "tailwindcss";
 
 html {
     scrollbar-gutter: stable;
+}
+
+html:has(.no-gutter) {
+    scrollbar-gutter: auto;
 }

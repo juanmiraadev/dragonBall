@@ -59,7 +59,7 @@ export default function CharacterDetails() {
     >
       <Hero />
       <div className="w-full flex flex-col lg:flex-row gap-8 flex-1 min-h-0 items-center lg:items-start">
-        <div className="w-full lg:w-[50%] flex justify-center lg:justify-start shrink lg:shrink-0 min-h-0">
+        <div className="w-full lg:w-[50%] flex justify-center lg:justify-start shrink-0">
           <div className="flex flex-col gap-2">
             <Link onClick={() => navigate(-1)} className="sticky top-0 z-10 self-start bg-DragoWhite px-4 py-2 font-bold text-DragoGray text-2xl shrink-0">← Volver</Link>
             <div className="border-DragoGray border-4 rounded-tr-4xl rounded-bl-4xl bg-DragoAccentRed p-4">
